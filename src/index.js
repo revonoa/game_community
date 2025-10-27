@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import axios from 'axios';
+
+axios.defaults.baseURL = 'http://localhost:4000'; // 개발용: 백엔드 포트
+axios.defaults.withCredentials = false;           // 쿠키 안 쓰면 false 유지
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

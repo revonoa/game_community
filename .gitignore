@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+*/node_modules
 /.pnp
 .pnp.js
 
@@ -17,7 +18,16 @@
 .env.development.local
 .env.test.local
 .env.production.local
+Thumbs.db
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
+
+.env
+*.env
+/backend/.env
+
+.vscode/
+.idea/
