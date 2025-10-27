@@ -1,3 +1,6 @@
+# 실제 작동 사이트
+https://game-community-inky.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
